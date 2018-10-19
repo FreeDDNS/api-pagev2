@@ -1,0 +1,21 @@
+{
+    "name_site": "Custom DNS",
+    "title_site": "Custom Page to Create DNS Free !",
+    "icon_favicon": "fas fa-hdd",
+    "footer_copyright": "LocalDev",
+    "base_url": "localhost",
+
+    "meta_site": {
+    	"type":"website",
+    	"keywords": "freeddns, ddns, free, subdomain",
+    	"description": "Website Layanan DNS Records dengan 6 Domain Gratis",
+    	"title": "Free DNS Records & Hostname With 6 Domains 1",
+    	"image": "dist/img/thumbnail.png"
+    },	
+
+    "data": {
+        "api_key": "c463a211266db3c09a70149e4",
+        "recaptcha_data-sitekey": "6LeMGnUUAAAAALbdnXFO9S2wglxZS-6aLZO-5LNJ", 
+        "recaptcha_secretkey": "6LeMGnUUAAAAAH4Kyhyt4h7TUoQJ_FahGJle72jq" 
+    }
+}
