@@ -11,19 +11,19 @@
 
 $str 				= file_get_contents('dist/lib/package.json');
 $json 				= json_decode($str, true);
-$base_url           = $json['base_url'];
-$judul_title  		= $json['title_site'];
-$navbar_judul 		= $json['name_site'];
-$icon_favicon 		= $json['icon_favicon'];
+$base_url           		= $json['base_url'];
+$judul_title  			= $json['title_site'];
+$navbar_judul 			= $json['name_site'];
+$icon_favicon 			= $json['icon_favicon'];
 $g_sitekey	  		= $json['data']['recaptcha_data-sitekey'];
 $copyright	  		= $json['footer_copyright'];
-$meta_keywords 		= $json['meta_site']['keywords'];
-$meta_description 	= $json['meta_site']['description'];
+$meta_keywords 			= $json['meta_site']['keywords'];
+$meta_description 		= $json['meta_site']['description'];
 $meta_type 			= $json['meta_site']['type'];
-$meta_title 		= $json['meta_site']['title'];
+$meta_title 			= $json['meta_site']['title'];
 $meta_image			= $json['meta_site']['image'];
 include "dist/lib/host_conf.php";
-$res                = @file_get_contents($api_url);
+$res                		= @file_get_contents($api_url);
 $json_api 			= json_decode(trim($res), TRUE);
 
 ?>
