@@ -14,7 +14,8 @@ ubah
 </pre>
 
 ##  Peringatan
-Jangan Mengubah URL API, jika dirubah akan dapat error atau bahkan api tidak berfungsi
+* Jangan Mengubah URL API, jika dirubah akan dapat error atau bahkan api tidak berfungsi
+* Untuk dapat badge verifikasi site, dapat didaftarkan di https://api.hostddns.us/register/add/url 
 
 
 ## Lisensi 
