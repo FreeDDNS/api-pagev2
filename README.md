@@ -12,3 +12,10 @@ ubah
         "recaptcha_secretkey": "6LeMGnUUAAAAAH4Kyhyt4h7TUoQJ_FahGJle72jq"  <- <b> SecretKey Recaptcha</b>
     }
 </pre>
+
+##  Peringatan
+Jangan Mengubah URL API, jika dirubah akan dapat error atau bahkan api tidak berfungsi
+
+
+## Lisensi 
+Open GPL v2
