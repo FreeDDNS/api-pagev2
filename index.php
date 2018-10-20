@@ -115,7 +115,7 @@ if($base_url == $actual_link){
     </div>
     <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="//github.com/FreeDDNS"><i class="fab fa-github"></i> Github</a></li>
+        <li class="active"><a href="//github.com/FreeDDNS/api-pagev2"><i class="fab fa-github"></i> Github</a></li>
       </ul>	
     </div>
   </div>
