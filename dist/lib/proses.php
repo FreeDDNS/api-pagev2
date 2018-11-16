@@ -18,7 +18,7 @@ $responseKeys	= json_decode($response,true);
     if(intval($responseKeys["success"]) !== 1) {
       header("Location: ../../index.php?status=1&message= Mohon Centang Form Recaptcha !");
    } else {
-$api_url    		= "https://panel.hostddns.us/api/v2/client/"; // Stable API Url v2 
+$api_url    		= "https://api.hostddns.us/v2/dnsrecords/"; // Stable API Url v2 
 $api_key    		= $json['data']['api_key']; 
 $service    		= $_POST['service']; 
 $domain     		= $_POST['domain']; 
